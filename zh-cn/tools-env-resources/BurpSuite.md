@@ -76,11 +76,13 @@ https://github.com/d3417/BurpSuite-Pro-2021-Cracked/tree/main
 https://github.com/x-Ai/BurpSuite
 ```
 
-![](D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-pro-crack-setup\1.下载所需的包.png)
+![](../assets/burpsuite/burp-pro-crack-setup/1.下载所需的包.png)
 
 > 2.安装 burp-pro版本, 直接点击下一步即可
 
 > 3.将 BurpSuiteLoader.jar 放到burp的安装目录下
+![](../assets/burpsuite/burp-pro-crack-setup/2.安装burp-pro并将破解包放到安装目录.png)
+![](../assets/burpsuite/burp-pro-crack-setup/3.安装license破解包.png)
 
 > 4.启动 BurpSuiteLoader.jar (burpsuite_pro.jar换成自己安装的burp的安装目录的 jar 包名称)
 >
@@ -139,9 +141,7 @@ Note:
 ```
 
 
-
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-embeded-browser.png" style="zoom:40%;" />
-
+![](../assets/burpsuite/burp-embeded-browser.png)
 
 
 
@@ -192,17 +192,17 @@ Action详解：
 
 ### 2.3.1 代理设置
 
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-enter-1.png" style="zoom:40%;" />
+![](../assets/burpsuite/burp-enter-1.png)
 
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-enter-2.png" style="zoom:40%;" />
+![](../assets/burpsuite/burp-enter-2.png)
 
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-proxy-settings-port.png" style="zoom:40%;" />
+![](../assets/burpsuite/burp-proxy-settings-port.png)
 
 
 
 > 这里设置代理是在 49173 端口，如果使用 chrome 浏览器，又不想走系统代理，则可以通过 chrome 的浏览器插件 "Proxy SwitchyOmega" 设置专属代理 "burp_localhost"，并切换代理至 "burp_localhost"，注意保持端口一致。
 
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\Proxy SwtichyOmega-settings.png" style="zoom:40%;" />
+![](../assets/burpsuite/ProxySwtichyOmega-settings.png)
 
 
 
@@ -216,17 +216,17 @@ https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm
 
 这里是以设置过滤 host 为例 (www.accessdata.fda.gov), 可以根据实际情况自行设置 include/exclude 规则。
 
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-target-scope-1.png" style="zoom:40%;" />
+![](../assets/burpsuite/burp-target-scope-1.png)
 
 
 
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-target-scope-2.png" style="zoom:40%;" />
+![](../assets/burpsuite/burp-target-scope-2.png)
 
 
 
 ``` 此时刷新一下网页，可以看到只过滤了指定规则对应的资源 ```
 
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-target-scope-3.png" style="zoom:40%;" />
+![](../assets/burpsuite/burp-target-scope-3.png)
 
 
 
@@ -234,13 +234,13 @@ https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm
 
 ```设置拦截规则```
 
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-intercept-request-response-1.png" style="zoom:40%;" />
+![](../assets/burpsuite/burp-intercept-request-response-1.png)
 
 
 
 ```开启拦截功能```
 
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-intercept-request-response-2.png" style="zoom:40%;" />
+![](../assets/burpsuite/burp-intercept-request-response-2.png)
 
 ```访问符合拦截规则的页面,观察到页面在加载```
 
@@ -252,11 +252,11 @@ https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=browseByLetter.p
 
 ```切换到 burp，发现请求已经被拦截，此时修改请求参数，此时将B改为C, 然后点击 'Forward按钮'```
 
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-intercept-request-response-4.png" style="zoom:40%;" />
+![](../assets/burpsuite/burp-intercept-request-response-4.png)
 
 ```可以从burp-->Proxy-->HTTP history中看到response是参数为C时的响应结果```
 
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-intercept-request-response-5.png" style="zoom:40%;" />
+![](../assets/burpsuite/burp-intercept-request-response-5.png)
 
 
 
@@ -471,9 +471,9 @@ dict2：3，4
 
 ### 2.6.3 使用步骤
 
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-repeater-1.png" style="zoom:40%;" />
+![](../assets/burpsuite/burp-repeater-1.png)
 
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-repeater-2.png" alt="burp-repeater-2" style="zoom:40%;" />
+![](../assets/burpsuite/burp-repeater-2.png)
 
 
 
@@ -505,9 +505,9 @@ Burp Decoder的功能比较简单，作为Burp Suite中一款编码解码工具�
 对于编码解码选项，目前支持URL、HTML、Base64、ASCII、16进制、8进制、2 进制、GZIP共八种形式的格式转换，Hash散列支持SHA、SHA-224、SHA-256、SHA-384、SHA-512、MD2、MD5格式的转换，更重要的是，对于同一个数据，我们可以在Decoder的界面，进行多次编码解码的转换。
 ```
 
-![](D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-decoder-1.png)
+![](../assets/burpsuite/burp-decoder-1.png)
 
-![](D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-decoder-2.png)
+![](../assets/burpsuite/burp-decoder-2.png)
 
 
 
@@ -544,11 +544,11 @@ proxy->options
 
 ### 2.99.1 导出配置
 
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-export-settings-1.png" style="zoom:40%;" />
+![](../assets/burpsuite/burp-export-settings-1.png)
 
 ### 2.99.2 导入配置
 
-<img src="D:\1111_doc\网络安全笔记20221011\2.1 burpsuite\burp-import-settings-1.png" style="zoom:40%;" />
+![](../assets/burpsuite/burp-import-settings-1.png)
 
 
 
