@@ -24,6 +24,11 @@
       //executeScript: true, // 是否执行页面中的脚本，默认为false
       subMaxLevel: 4,
       maxLevel: 3,
+      timeUpdater: {
+        text: "> 文档最后更新时间: {docsify-updated}",
+        formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}",
+        whereToPlace: "top",  // "top" or "bottom", default to "bottom"
+      },
       auto2top: true,
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
@@ -120,5 +125,7 @@
   <!-- 图片缩放 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 
+  <!-- 文档更新时间 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script>
 </body>
 </html>
